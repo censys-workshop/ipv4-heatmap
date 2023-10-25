@@ -12,7 +12,7 @@ ${NAME}.png: ${NAME}.annotations ${NAME}.shade
 	mv map.png $@
 
 ${NAME}-z.png: ${NAME}.annotations ${NAME}.shade
-	../..//ipv4-heatmap \
+	../../ipv4-heatmap \
 	  -m \
 	  -s ${NAME}.shade \
 	  -a ${NAME}.annotations \

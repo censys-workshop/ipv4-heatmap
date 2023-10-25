@@ -2,19 +2,18 @@
 1.0.0.0/8	APNIC	prefix
 2.0.0.0/8	RIPE	prefix
 3.0.0.0/8	Various Registries	prefix
-4.0.0.0/8	Level3	prefix
+4.0.0.0/8	Various Registries	prefix
 5.0.0.0/8	RIPE	prefix
 6.0.0.0/8	US Army	prefix
 7.0.0.0/8	Various Registries	prefix
-8.0.0.0/8	Level3	prefix
-9.0.0.0/8	Various Registries	prefix
+8.0.0.0/7	Various Registries	prefix
 10.0.0.0/8	Reserved	prefix
 11.0.0.0/8	DoD Intel Information Systems	prefix
 12.0.0.0/8	AT&T	prefix
 13.0.0.0/8	Various Registries	prefix
 14.0.0.0/8	APNIC	prefix
 15.0.0.0/8	Various Registries	prefix
-16.0.0.0/8	Hewlett Packard Enterprise Company	prefix
+16.0.0.0/8	Various Registries	prefix
 17.0.0.0/8	Apple	prefix
 18.0.0.0/8	Various Registries	prefix
 19.0.0.0/8	Ford Motor Company	prefix
@@ -23,7 +22,7 @@
 22.0.0.0/8	DISA	prefix
 23.0.0.0/8	ARIN	prefix
 24.0.0.0/8	ARIN	prefix
-25.0.0.0/8	UK Ministry of Defence	prefix
+25.0.0.0/8	Various Registries	prefix
 26.0.0.0/8	DISA	prefix
 27.0.0.0/8	APNIC	prefix
 28.0.0.0/8	DSI-North	prefix
@@ -41,8 +40,7 @@
 41.0.0.0/8	AFRINIC	prefix
 42.0.0.0/8	APNIC	prefix
 43.0.0.0/8	Various Registries	prefix
-44.0.0.0/8	Amateur Radio Digital Communications	prefix
-45.0.0.0/8	Various Registries	prefix
+44.0.0.0/7	Various Registries	prefix
 46.0.0.0/8	RIPE	prefix
 47.0.0.0/8	Various Registries	prefix
 48.0.0.0/8	Prudential	prefix
@@ -53,8 +51,7 @@
 53.0.0.0/8	Daimler AG	prefix
 54.0.0.0/8	Various Registries	prefix
 55.0.0.0/8	DoD NIC	prefix
-56.0.0.0/8	USPS	prefix
-57.0.0.0/8	Societe Internationale de Telecommunications Aeronautiques S.C.R.L.	prefix
+56.0.0.0/7	Various Registries	prefix
 58.0.0.0/7	APNIC	prefix
 60.0.0.0/7	APNIC	prefix
 62.0.0.0/8	RIPE	prefix

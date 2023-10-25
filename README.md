@@ -1,30 +1,43 @@
 # ipv4-heatmap
+
 Generate Hilbert curve heatmaps of the IPv4 address space.
 
-This software was inspired by https://xkcd.com/195/
+This software was inspired by <https://xkcd.com/195/>
 
-See http://maps.measurement-factory.com/ for additional information and a gallery of examples.
+See <http://maps.measurement-factory.com/> for additional information and a gallery of examples.
 
-# Dependencies
+## Dependencies
 
 - GD library
 
-# Installing Dependencies & Compiling
+## Installing Dependencies & Compiling
 
-- apt-get install libgd-dev build-essential
-- make
+### Ubuntu
 
-# Documentation
+```sh
+apt-get install libgd-dev build-essential
+make
+```
+
+### macOS
+
+```sh
+brew install gd wget
+make
+```
 
 ## NAME
+
      ipv4‐heatmap — Create a map of IPv4 address data
 
 ## SYNOPSIS
+
      ipv4‐heatmap [−dhprm] [−A float] [−B float] [−a file] [−f font]
                   [−g seconds] [−k file] [−o file] [−s file] [−t string]
                   [−u string] [−y prefix] [−z bits] < iplist
 
 ## DESCRIPTION
+
      ipv4‐heatmap is a program that generates a map of IPv4 address data using
      a space‐filling Hilbert Curve.  Inspiration for ipv4‐heatmap comes from
      the xkcd comic (http://www.xkcd.org/195/).
@@ -51,6 +64,7 @@ See http://maps.measurement-factory.com/ for additional information and a galler
      ipv4‐heatmap uses the GD library (libgd) to create the map image.
 
 ## COMMAND LINE OPTIONS
+
      The options are as follows:
 
      −A logmin
@@ -133,6 +147,7 @@ See http://maps.measurement-factory.com/ for additional information and a galler
              ify 0 here for one pixel per host address.
 
 ## INPUT MODES
+
      ipv4‐heatmap accepts three input modes:
 
      1.   Increment mode.
@@ -165,6 +180,7 @@ See http://maps.measurement-factory.com/ for additional information and a galler
                           ln (logmax / logmin)
 
 ## ANNOTATIONS
+
      The annotations file consists of two or three TAB‐separated fields.  The
      first field is a CIDR prefix, and the second is the annotation string.
      The annotation string is rendered within the boundary of that prefix,
@@ -188,6 +204,7 @@ See http://maps.measurement-factory.com/ for additional information and a galler
      ipv4‐heatmap program.
 
 ## SHADING
+
      Areas of the map can be "shaded" by using the −s shades option.  This was
      originally developed simply to highlight address space that is designated
      reserved or unallocated, but is also a useful way to render complex map
@@ -206,6 +223,7 @@ See http://maps.measurement-factory.com/ for additional information and a galler
            192.168.0.0/16  0x7F7FFF        64
 
 ## ANIMATED GIFS
+
      When the −g option is given, ipv4‐heatmap outputs an animated GIF image
      file.  This feature requires the gifsicle(1) program to be installed.
 
@@ -227,6 +245,7 @@ See http://maps.measurement-factory.com/ for additional information and a galler
      the start of the next frame.
 
 ## HILBERT CURVE
+
      ipv4‐heatmap uses a 12th‐order Hilbert Curve to represnet the entire IPv4
      address space.  Locating a particular IP address along the curve can be
      confusing at first.  Here is what a 2nd‐order Hilbert curve looks like:
@@ -243,19 +262,23 @@ See http://maps.measurement-factory.com/ for additional information and a galler
      your own!
 
 ## COPYRIGHT
+
            IPv4 Heatmap
            (C) 2011 The Measurement Factory, Inc
            Licensed under the GPL, version 2
            http://maps.measurement‐factory.com/
 
 ## SEE ALSO
+
      gifsicle(1)
 
 ## AUTHORS
+
      ipv4‐heatmap was written by Duane Wessels of The Measurement Factory,
      Inc.  With contributions from: Roy Arends of Nominet UK.
 
 ## BUGS
+
      Can’t draw IPv6 address maps.
 
      The legends don’t look all that great.  You can use an image editing pro‐

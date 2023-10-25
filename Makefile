@@ -1,5 +1,5 @@
-INCS=-I/usr/local/include
-LIBS=-L/usr/local/lib -lgd -lm
+INCS=-I/usr/local/include -I/opt/homebrew/include
+LIBS=-L/usr/local/lib -L/opt/homebrew/lib -lgd -lm
 CFLAGS=-g -Wall ${INCS}
 LDFLAGS=-g
 OBJS=\
