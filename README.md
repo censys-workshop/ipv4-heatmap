@@ -22,7 +22,7 @@ make
 ### macOS
 
 ```sh
-brew install gd wget
+brew install wget gd gifsicle
 make
 ```
 

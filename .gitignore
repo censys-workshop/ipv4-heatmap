@@ -34,3 +34,5 @@
 # Specific files
 ipv4-heatmap
 *.png
+*.txt
+*.csv
