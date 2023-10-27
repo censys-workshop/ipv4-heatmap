@@ -1,11 +1,11 @@
 0.0.0.0/8	Reserved	prefix
 1.0.0.0/8	APNIC	prefix
 2.0.0.0/8	RIPE	prefix
-3.0.0.0/8	Various Registries	prefix
+3.0.0.0/8	Amazon	prefix
 4.0.0.0/8	Various Registries	prefix
 5.0.0.0/8	RIPE	prefix
 6.0.0.0/8	US Army	prefix
-7.0.0.0/8	Various Registries	prefix
+7.0.0.0/8	DoD Network Information Center	prefix
 8.0.0.0/7	Various Registries	prefix
 10.0.0.0/8	Reserved	prefix
 11.0.0.0/8	DoD Intel Information Systems	prefix
@@ -22,7 +22,7 @@
 22.0.0.0/8	DISA	prefix
 23.0.0.0/8	ARIN	prefix
 24.0.0.0/8	ARIN	prefix
-25.0.0.0/8	Various Registries	prefix
+25.0.0.0/8	UK Ministry of Defence	prefix
 26.0.0.0/8	DISA	prefix
 27.0.0.0/8	APNIC	prefix
 28.0.0.0/8	DSI-North	prefix
@@ -77,7 +77,7 @@
 112.0.0.0/5	APNIC	prefix
 120.0.0.0/6	APNIC	prefix
 124.0.0.0/7	APNIC	prefix
-126.0.0.0/8	APNIC	prefix
+126.0.0.0/8	SoftBank	prefix
 127.0.0.0/8	Reserved	prefix
 128.0.0.0/3	Various Registries	prefix
 160.0.0.0/5	Various Registries	prefix
