@@ -16,7 +16,7 @@
 16.0.0.0/8	Various Registries	prefix
 17.0.0.0/8	Apple	prefix
 18.0.0.0/8	Various Registries	prefix
-19.0.0.0/8	Ford Motor Company	prefix
+19.0.0.0/8	Ford	prefix
 20.0.0.0/8	Various Registries	prefix
 21.0.0.0/8	DDN-RVN	prefix
 22.0.0.0/8	DISA	prefix
@@ -34,7 +34,7 @@
 34.0.0.0/7	Various Registries	prefix
 36.0.0.0/8	APNIC	prefix
 37.0.0.0/8	RIPE	prefix
-38.0.0.0/8	PSINet, Inc.	prefix
+38.0.0.0/8	Cogent	prefix
 39.0.0.0/8	APNIC	prefix
 40.0.0.0/8	Various Registries	prefix
 41.0.0.0/8	AFRINIC	prefix
@@ -48,7 +48,7 @@
 50.0.0.0/8	ARIN	prefix
 51.0.0.0/8	Various Registries	prefix
 52.0.0.0/8	Various Registries	prefix
-53.0.0.0/8	Daimler AG	prefix
+53.0.0.0/8	Mercedes-Benz	prefix
 54.0.0.0/8	Various Registries	prefix
 55.0.0.0/8	DoD NIC	prefix
 56.0.0.0/7	Various Registries	prefix
@@ -119,4 +119,4 @@
 218.0.0.0/7	APNIC	prefix
 220.0.0.0/6	APNIC	prefix
 224.0.0.0/4	Multicast	prefix
-240.0.0.0/4	Reserved
+240.0.0.0/4	Reserved	prefix
